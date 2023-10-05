@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+
+*{margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	background-color: #E9EDF6;
+	font-family: Poppins;
+	font-size: 0.9em;
+}
+
+header {
+	background-color:#21222F;
+	padding: 15px 0px;
+}
+
+.button {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #B0BED7;
+  height: 37px;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to red on hover */
+li a:hover {
+  background-color: #CE3632;
+}
+
+.welcomesection {
+	position: relative;
+ 	text-align: center;
+ 	color: white;
+ 	padding: 10px 170px;
+
+}
+
+h1 {
+  color: white;
+  padding: 40px 25px;
+  text-align: left;
+  font-size: 55px;
+  margin-left: 130px;
+  position: absolute;
+  bottom: 0px;
+  left: 64px;
+  line-height: 60px;
+}
+
+h2 {
+	font-family: Lexend;
+	font-weight: normal;
+	margin-top: 60px;
+	heading:20px;
+	padding: 20px 0px;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: Lexend;
+	font-weight: normal;
+	margin-top: 60px;
+	heading:20px;
+	font-size: 30px;
+}
+
+.newsicon {
+	width: 100px;
+	height: 100px;
+	padding: 100px 0px;
+	flex: 1;
+}
+
+.newstext {
+	width: 100px;
+	height: 100px;
+	flex: 1;
+	text-align: left;
+}
+
+.news {
+	display: flex;
+	padding: 65px;
+	padding-inline: 200px;
+	background-color: #D2DDEE;
+	position: relative;
+	height: 400px;
+}
+
+em {
+	color:#D2011B
+}
+
+.footerlogo{
+  width: 100px;
+	height: 100px;
+	flex: 1;
+}
+
+.footerinfo {
+	width: 50px;
+	height: 50px;
+	padding: 12px 0px;
+	flex: 1;
+	text-align: left;
+}
+
+.vertical {
+  border-left: thin solid #ffffff;
+  padding: 0px 20px;
+}
+
+footer {
+	color: #FFFFFF;
+	background-color:#21222F;
+	display: flex;
+	padding: 35px 0px;
+	height: 100px;
+	padding-inline: 500px;
+}
+
+
+/* About Us Page */
+
+.missionstatement {
+	margin: 100px 250px;
+	padding: 0px 65px;
+	text-align: left;
+}
+
+.bodytext {
+	color: #CE3632;
+}
+
+.impact {
+	display: flex;
+	background-color: #D2DDEE;
+}
+
+.damagetext {
+	flex: 1;
+	padding: 10px 60px 80px 60px;
+	text-align: left;
+	margin: 70px -30px 70px 250px;
+}
+
+.powerlines {
+	flex: 1;
+	padding: 80px 150px 20px 0px;
+	margin: 70px 150px 70px 0px;
+}
+
+.whatwedo {
+	display: flex;
+}
+
+.cranebaby {
+	flex: 1;
+	padding: 40px 60px 40px 60px;
+	margin: 90px -30px 100px 250px;
+}
+
+.whatwedotext {
+	flex: 1;
+	text-align: left;
+	padding: 0px 150px 40px 0px;
+	margin: 90px 150px 100px 0px;
+
+}
+
+
+
+/* Learn */
+
+.contentposition1 {
+	display: flex;
+	padding: 65px;
+	height: 500px;
+	margin: 0px 250px;
+}
+
+.textleft {
+	flex: 1;
+	font-size: 15px;
+	padding-right: 3em;
+	text-align: left;
+}
+
+.imageright {
+  flex: 1;
+	padding-left: 3em;
+}
+
+.contentposition2 {
+	display: flex;
+	padding: 105px 310px;
+	height: 300px;
+	background-color: #D2DDEE;
+}
+
+.imageleft {
+	flex: 1;
+	padding-right: 3em;
+}
+
+.textright {
+  flex: 1;
+	font-size: 15px;
+	padding-left: 3em;
+	padding-top: 50px;
+	text-align: left;
+}
+
+/* Visit */
+
+.contentposition3 {
+	display: flex;
+	padding: 65px;
+	height: 500px;
+	margin: 0px 250px;
+}
+
+.refugeimage {
+	  flex: 1;
+	  padding: 100px 5px;
+}
+
+.textright2{
+  flex: 1;
+	font-size: 15px;
+	text-align: left;
+}
+
+.contentposition4 {
+	display: flex;
+	padding: 105px 310px;
+	height: 700px;
+	background-color: #D2DDEE;
+}
+
+/* Support */
+
+.volunteer {
+	display: flex;
+	margin: 40px 250px 80px 250px;
+}
+
+form {
+	text-align: left;
+	flex: 1;
+	padding: 10px 100px;
+	background-color: #D2DDEE;
+}
+
+.marshimage {
+	flex: 1;
+}
+
